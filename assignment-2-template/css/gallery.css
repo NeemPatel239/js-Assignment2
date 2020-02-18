@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+#gallery {
+    position: relative;
+	height: 900px;
+	width: 1100px;
+}
+
+div.images {
+    position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+figure.images {
+	margin: 0;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	transition: opacity 1s;
+}
+
+figure.images img{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+figure.images figcaption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 2em;
+	color: white;
+	background: linear-gradient(to bottom, rgba(100,0,0,0), rgba(100,0,0,1));
+	height: 90px;
+}
+figure.images div.btn {
+	width: 100%;
+	position: absolute;
+	top: 60%;
+	text-align: center;
+}
+
+figure.images a {
+	text-decoration: none;
+	font-size: 2rem;
+}
+figure.images a.btn:hover {
+	color: #000;
+	background-color: #ffffff90;
+}
+figure.images a.btn {
+	color: #fff;
+	cursor: pointer;
+	background-color: #0000009e;
+	border: white 1px solid;
+	padding: 1rem 2rem;
+	letter-spacing: 2px;
+}
